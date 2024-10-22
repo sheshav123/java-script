@@ -44,4 +44,33 @@ console.log(typeof bigNumber);
 
 
 
+//***************************************** */
+// meamory types 
+
+// stack (primetive)
+// heap (non - primetive)
+
+let myYoutubeName = "sheshavananddotcom"
+
+let anotherName = "killerronakdotcom"
+
+console.log(myYoutubeName);
+console.log(anotherName);
+
+
+let userOne ={
+    email : "user@gamil.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "sheshav@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
+
+
+
 
