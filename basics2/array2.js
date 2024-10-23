@@ -6,11 +6,11 @@ const dc_heros = ["superman","flash","batman"]
 // console.log(marvel_heros);
 // console.log(marvel_heros[3][1]);
 
-//-------concat is used to add tow arrays 
+//-------concat is used to add two arrays 
 const all_hero = marvel_heros.concat(dc_heros)
 console.log(all_hero);
 
-//------spreat is used to add more than two arrays using ...
+//------spread is used to add more than two arrays using ...
 const all_new_hero = [ ...marvel_heros,...dc_heros]
 console.log(all_new_hero);
 
